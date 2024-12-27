@@ -116,7 +116,12 @@ def swap(chainId, amount, fromTokenAddress, toTokenAddress, slippage, userWallet
 
 if __name__ == '__main__':
     # save_supported_chain()
+    # exit()
 
-    # data = query_supported_tokens("1")
-    data = get_liquidity("1")
+    # 8453 stands for Base Chain
+    # data = query_supported_tokens("8453")
+    # buy virtual with usdc
+    data = quote("8453", 1000000, '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913', '0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b')
     print(json.dumps(data, indent=2, ensure_ascii=False))
+    # data = get_liquidity("8453")
+    # print(json.dumps(data, indent=2, ensure_ascii=False))

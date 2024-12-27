@@ -24,10 +24,12 @@ api_config = {
 
 
 def pre_hash(timestamp, method, request_path, params):
+    params = {k: v for k, v in params.items() if v }
     # 根据字符串和参数创建预签名
     query_string = ''
     if method == 'GET' and params:
         query_string = '?' + urlencode(params)
+        print(query_string)
     if method == 'POST' and params:
         query_string = json.dumps(params)
     return timestamp + method + request_path + query_string
