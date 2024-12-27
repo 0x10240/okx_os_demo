@@ -1,394 +1,134 @@
 [
   {
-    "BTC": {
-      "name": "BTC",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/BTC.png",
-      "shortName": "btc",
-      "chainIndex": "0"
-    },
-    "Litecoin": {
-      "name": "Litecoin",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/LTC.png",
-      "shortName": "LTC",
-      "chainIndex": "2"
-    },
-    "Ethereum": {
-      "name": "Ethereum",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/ETH-20220328.png",
-      "shortName": "eth",
-      "chainIndex": "1"
-    },
-    "Ethereum Classic": {
-      "name": "Ethereum Classic",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/ETC.png",
-      "shortName": "ETC",
-      "chainIndex": "61"
-    },
-    "Bitcoin Cash": {
-      "name": "Bitcoin Cash",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/BCH.png",
-      "shortName": "BCH",
-      "chainIndex": "145"
-    },
-    "Dash": {
-      "name": "Dash",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/dash.png",
-      "shortName": "DASH",
-      "chainIndex": "5"
-    },
-    "OKTC": {
-      "name": "OKTC",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/okt.png",
-      "shortName": "okt",
-      "chainIndex": "66"
-    },
-    "BNB Smart Chain": {
-      "name": "BNB Smart Chain",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/BNB-20220308.png",
-      "shortName": "bsc",
-      "chainIndex": "56"
-    },
-    "Avalanche C": {
-      "name": "Avalanche C",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/AVAX.png",
-      "shortName": "avax",
-      "chainIndex": "43114"
-    },
     "Polygon": {
-      "name": "Polygon",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/MATIC-20220415.png",
-      "shortName": "matic",
-      "chainIndex": "137"
-    },
-    "Fantom": {
-      "name": "Fantom",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/FTM-20220328.png",
-      "shortName": "ftm",
-      "chainIndex": "250"
-    },
-    "Cronos": {
-      "name": "Cronos",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/cro.png",
-      "shortName": "Cronos",
-      "chainIndex": "25"
-    },
-    "Kaia Network": {
-      "name": "Kaia Network",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/klay.png",
-      "shortName": "Kaia",
-      "chainIndex": "8217"
-    },
-    "KCC": {
-      "name": "KCC",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/kcc.png",
-      "shortName": "KCC",
-      "chainIndex": "321"
-    },
-    "Metis": {
-      "name": "Metis",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/metis.png",
-      "shortName": "METIS",
-      "chainIndex": "1088"
-    },
-    "Boba": {
-      "name": "Boba",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/boba.png",
-      "shortName": "BOBA",
-      "chainIndex": "288"
-    },
-    "Arbitrum One": {
-      "name": "Arbitrum One",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/arb_9000.png",
-      "shortName": "Arbitrum",
-      "chainIndex": "42161"
-    },
-    "Optimism": {
-      "name": "Optimism",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/op_10000.png",
-      "shortName": "Optimism",
-      "chainIndex": "10"
-    },
-    "Gnosis": {
-      "name": "Gnosis",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/xdai_11300.png",
-      "shortName": "XDAI",
-      "chainIndex": "100"
-    },
-    "Aurora": {
-      "name": "Aurora",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/auroa_11500.png",
-      "shortName": "AURORA",
-      "chainIndex": "1313161554"
-    },
-    "Ronin": {
-      "name": "Ronin",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/ronin_11800.png",
-      "shortName": "RONIN",
-      "chainIndex": "2020"
-    },
-    "Moonbeam": {
-      "name": "Moonbeam",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/moonbeam_12100.png",
-      "shortName": "GLMR",
-      "chainIndex": "1284"
-    },
-    "Moonriver": {
-      "name": "Moonriver",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/movr_12800.png",
-      "shortName": "MOVR",
-      "chainIndex": "1285"
-    },
-    "Harmony": {
-      "name": "Harmony",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/one_13100.png",
-      "shortName": "one",
-      "chainIndex": "1666600000"
-    },
-    "EthereumPoW": {
-      "name": "EthereumPoW",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/ETHW.png",
-      "shortName": "ETHW",
-      "chainIndex": "10001"
-    },
-    "DIS CHAIN": {
-      "name": "DIS CHAIN",
-      "logoUrl": "https://static.coinall.ltd/cdn/web3/currency/token/1707026506326.png/type=png_350_0",
-      "shortName": "DIS",
-      "chainIndex": "513100"
-    },
-    "Celo": {
-      "name": "Celo",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/celo_16600.png",
-      "shortName": "Celo",
-      "chainIndex": "42220"
-    },
-    "zkSync Era": {
-      "name": "zkSync Era",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/zk_17000.png",
-      "shortName": "ZKSync2",
-      "chainIndex": "324"
-    },
-    "Flare": {
-      "name": "Flare",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/flr_17300.png",
-      "shortName": "Flr",
-      "chainIndex": "14"
-    },
-    "Core": {
-      "name": "Core",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/core_18300.png",
-      "shortName": "core",
-      "chainIndex": "1116"
-    },
-    "Dogecoin": {
-      "name": "Dogecoin",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/18000_doge.png",
-      "shortName": "DOGE",
-      "chainIndex": "3"
-    },
-    "Arbitrum Nova": {
-      "name": "Arbitrum Nova",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/nova_18500.png",
-      "shortName": "Nova",
-      "chainIndex": "42170"
-    },
-    "Conflux": {
-      "name": "Conflux",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/cfx_19200.png",
-      "shortName": "cfx",
-      "chainIndex": "1030"
-    },
-    "Polygon zkEVM": {
-      "name": "Polygon zkEVM",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/POLYGON_ETH_19300.png",
-      "shortName": "PolygonZK",
-      "chainIndex": "1101"
-    },
-    "Omega Network": {
-      "name": "Omega Network",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/omg_19700.png",
-      "shortName": "Omega",
-      "chainIndex": "408"
-    },
-    "Endurance": {
-      "name": "Endurance",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/ace_19800.png",
-      "shortName": "ACE",
-      "chainIndex": "648"
-    },
-    "Kava EVM": {
-      "name": "Kava EVM",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/evm_kava_19900.png",
-      "shortName": "EVM_KAVA",
-      "chainIndex": "2222"
-    },
-    "PulseChain": {
-      "name": "PulseChain",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/pls_20000.png",
-      "shortName": "PLS",
-      "chainIndex": "369"
-    },
-    "Mantle": {
-      "name": "Mantle",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/mnt_20100.png",
-      "shortName": "Mantle",
-      "chainIndex": "5000"
-    },
-    "ZetaChain Mainnet": {
-      "name": "ZetaChain Mainnet",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/zeta_mainnet_23000.png",
-      "shortName": "ZETACHAIN_MAINNET",
-      "chainIndex": "7000"
-    },
-    "Linea": {
-      "name": "Linea",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/linea_eth_20700.png",
-      "shortName": "linea_eth",
-      "chainIndex": "59144"
-    },
-    "Base": {
-      "name": "Base",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/base_20900.png",
-      "shortName": "base_eth",
-      "chainIndex": "8453"
-    },
-    "opBNB": {
-      "name": "opBNB",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/opbnb_20900.png",
-      "shortName": "op_bnb",
-      "chainIndex": "204"
-    },
-    "Sepolia": {
-      "name": "Sepolia",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/sepolia_eth_21100.png",
-      "shortName": "SEPOLIA_ETH",
-      "chainIndex": "11155111"
-    },
-    "HAQQ Network": {
-      "name": "HAQQ Network",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/islm_21200.png",
-      "shortName": "HAQQ",
-      "chainIndex": "11235"
-    },
-    "Scroll": {
-      "name": "Scroll",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/scroll_eth_21400.png",
-      "shortName": "Scroll_eth",
-      "chainIndex": "534352"
-    },
-    "Manta Pacific": {
-      "name": "Manta Pacific",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/manta_22000.png",
-      "shortName": "Manta",
-      "chainIndex": "169"
-    },
-    "Wemix 3.0": {
-      "name": "Wemix 3.0",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/wemix_22200.png",
-      "shortName": "wemix",
-      "chainIndex": "1111"
-    },
-    "Merlin Chain": {
-      "name": "Merlin Chain",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/merlin_btc_23400.png",
-      "shortName": "Merlin_Chain",
-      "chainIndex": "4200"
-    },
-    "Blast": {
-      "name": "Blast",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/blast_eth_23800.png",
-      "shortName": "Blast",
-      "chainIndex": "81457"
-    },
-    "Immutable zkEVM": {
-      "name": "Immutable zkEVM",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/imx_24100.png",
-      "shortName": "Immutable_zkEVM",
-      "chainIndex": "13371"
+      "chainId": 137,
+      "chainName": "Polygon",
+      "dexTokenApproveAddress": "0x3B86917369B83a6892f553609F3c2F439C184e31"
     },
     "TRON": {
-      "name": "TRON",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/TRX.png",
-      "shortName": "trx",
-      "chainIndex": "195"
+      "chainId": 195,
+      "chainName": "TRON",
+      "dexTokenApproveAddress": "THRAE2VhGNAcvPKtT96AqyXtSQwhiU1XL8"
     },
-    "Kroma": {
-      "name": "Kroma",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/kroma_28800.png",
-      "shortName": "Kroma",
-      "chainIndex": "255"
+    "Avalanche C": {
+      "chainId": 43114,
+      "chainName": "Avalanche C",
+      "dexTokenApproveAddress": "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f"
     },
-    "Dymension": {
-      "name": "Dymension",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/dym_23100.png",
-      "shortName": "Dymension",
-      "chainIndex": "1100"
+    "Ethereum": {
+      "chainId": 1,
+      "chainName": "Ethereum",
+      "dexTokenApproveAddress": "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f"
     },
-    "X Layer": {
-      "name": "X Layer",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/okb_22400.png",
-      "shortName": "okb",
-      "chainIndex": "196"
+    "OKTC": {
+      "chainId": 66,
+      "chainName": "OKTC",
+      "dexTokenApproveAddress": "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58"
     },
-    "Chiliz Chain": {
-      "name": "Chiliz Chain",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/chz_26000.png",
-      "shortName": "Chiliz Chain",
-      "chainIndex": "88888"
+    "BNB Chain": {
+      "chainId": 56,
+      "chainName": "BNB Chain",
+      "dexTokenApproveAddress": "0x2c34A2Fb1d0b4f55de51E1d0bDEfaDDce6b7cDD6"
     },
-    "Taiko Mainnet": {
-      "name": "Taiko Mainnet",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/taiko_26600.png",
-      "shortName": "Taiko",
-      "chainIndex": "167000"
+    "Fantom": {
+      "chainId": 250,
+      "chainName": "Fantom",
+      "dexTokenApproveAddress": "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58"
     },
-    "BOB Mainnet": {
-      "name": "BOB Mainnet",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/bob_26400.png",
-      "shortName": "Bob",
-      "chainIndex": "60808"
+    "Arbitrum": {
+      "chainId": 42161,
+      "chainName": "Arbitrum",
+      "dexTokenApproveAddress": "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58"
     },
-    "Rangers": {
-      "name": "Rangers",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/rpg_22600.png",
-      "shortName": "rpg",
-      "chainIndex": "2025"
+    "Optimism": {
+      "chainId": 10,
+      "chainName": "Optimism",
+      "dexTokenApproveAddress": "0x68D6B739D2020067D1e2F713b999dA97E4d54812"
     },
-    "Mode Network": {
-      "name": "Mode Network",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/mode_23200.png",
-      "shortName": "Mode_Network",
-      "chainIndex": "34443"
-    },
-    "B² Network": {
-      "name": "B² Network",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/b2_btc_25500.png",
-      "shortName": "B² Network",
-      "chainIndex": "223"
-    },
-    "Bitlayer": {
-      "name": "Bitlayer",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/bitlayer_btc_25600.png",
-      "shortName": "Bitlayer_BTC",
-      "chainIndex": "200901"
-    },
-    "Fractal Bitcoin": {
-      "name": "Fractal Bitcoin",
-      "logoUrl": "https://static.coinall.ltd/cdn/web3/currency/token/1725692491055.png/type=png_350_0",
-      "shortName": "FB",
-      "chainIndex": "70000061"
-    },
-    "Sui": {
-      "name": "Sui",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/sui_17700.png",
-      "shortName": "Sui",
-      "chainIndex": "784"
+    "Cronos": {
+      "chainId": 25,
+      "chainName": "Cronos",
+      "dexTokenApproveAddress": "0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58"
     },
     "Solana": {
-      "name": "Solana",
-      "logoUrl": "https://static.coinall.ltd/cdn/wallet/logo/SOL-20220525.png",
-      "shortName": "sol",
-      "chainIndex": "501"
+      "chainId": 501,
+      "chainName": "Solana",
+      "dexTokenApproveAddress": ""
+    },
+    "zkSync Era": {
+      "chainId": 324,
+      "chainName": "zkSync Era",
+      "dexTokenApproveAddress": "0xc67879F4065d3B9fe1C09EE990B891Aa8E3a4c2f"
+    },
+    "Conflux eSpace": {
+      "chainId": 1030,
+      "chainName": "Conflux eSpace",
+      "dexTokenApproveAddress": "0x68D6B739D2020067D1e2F713b999dA97E4d54812"
+    },
+    "SUI": {
+      "chainId": 784,
+      "chainName": "SUI",
+      "dexTokenApproveAddress": ""
+    },
+    "Polygon zkEvm": {
+      "chainId": 1101,
+      "chainName": "Polygon zkEvm",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "Linea": {
+      "chainId": 59144,
+      "chainName": "Linea",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "Mantle": {
+      "chainId": 5000,
+      "chainName": "Mantle",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "Base": {
+      "chainId": 8453,
+      "chainName": "Base",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "Scroll": {
+      "chainId": 534352,
+      "chainName": "Scroll",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "X Layer": {
+      "chainId": 196,
+      "chainName": "X Layer",
+      "dexTokenApproveAddress": "0x8b773D83bc66Be128c60e07E17C8901f7a64F000"
+    },
+    "Manta Pacific": {
+      "chainId": 169,
+      "chainName": "Manta Pacific",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "Metis": {
+      "chainId": 1088,
+      "chainName": "Metis",
+      "dexTokenApproveAddress": "0x57df6092665eb6058DE53939612413ff4B09114E"
+    },
+    "Zeta": {
+      "chainId": 7000,
+      "chainName": "Zeta",
+      "dexTokenApproveAddress": "0x03B5ACdA01207824cc7Bc21783Ee5aa2B8d1D2fE"
+    },
+    "Merlin": {
+      "chainId": 4200,
+      "chainName": "Merlin",
+      "dexTokenApproveAddress": "0x8b773D83bc66Be128c60e07E17C8901f7a64F000"
+    },
+    "Blast": {
+      "chainId": 81457,
+      "chainName": "Blast",
+      "dexTokenApproveAddress": "0x5fD2Dc91FF1dE7FF4AEB1CACeF8E9911bAAECa68"
+    },
+    "TON": {
+      "chainId": 607,
+      "chainName": "TON",
+      "dexTokenApproveAddress": ""
     }
   }
 ]
