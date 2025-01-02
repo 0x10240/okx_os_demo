@@ -3,3 +3,4 @@
 .env
 venv
 *.json
+test.py

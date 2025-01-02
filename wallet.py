@@ -149,19 +149,43 @@ def query_transactions_by_address(address, chains):
     resp = send_request(req_path, method="GET", params=data)
     return resp.json()
 
+
+def broadcast_transaction(signedTx, chainIndex, address):
+    req_path = "/api/v5/wallet/post-transaction/transactions-by-address"
+    data = {
+        "signedTx": signedTx,
+        "chainIndex": chainIndex,
+        "address": address
+    }
+    resp = send_request(req_path, method="POST", params=data)
+    return resp.json()
+
+
+def transaction_detail_by_txhash(chainIndex, txHash):
+    req_path = "/api/v5/wallet/post-transaction/transaction-detail-by-txhash"
+    data = {
+        "chainIndex": chainIndex,
+        "txHash": txHash,
+        # "iType": '2'
+    }
+    resp = send_request(req_path, method="GET", params=data)
+    return resp.json()
+    
+
 if __name__ == '__main__':
     # data = query_token_price("1")
     # data = query_historical_price()
     # data = query_token_detail(chainIndex="501", tokenAddress="GJtJuWD9qYcCkrwMBmtY1tpapV1sKfB2zUv9Q4aqpump")
     # data = query_total_value_by_address(address='8yNxK642RR1vyx7WoLou8Jxjxhwsedv8BfTYc833KNRg', chains='501')
 
-    address = "0x4679239cad2e33c7516924f73cec1365ab01a274"
-    chainIndex = "1"
+    # address = "0x4679239cad2e33c7516924f73cec1365ab01a274"
+    # chainIndex = "1"
     # data = query_all_token_balances_by_address(address, chainIndex)
 
     # addresses = [{"chainIndex": chainIndex, "address": address}]
     # data = query_approvals(addresses=addresses)
 
 
-    data = query_transactions_by_address(address, chainIndex)
+    # data = query_transactions_by_address(address, chainIndex)
+    data = transaction_detail_by_txhash('8453', '0x55dd3b31b3d48b65dbb83914df392bdb1e9f53a2e8f160cc87b5961c8d3bbe22')
     print(json.dumps(data, indent=2, ensure_ascii=False))

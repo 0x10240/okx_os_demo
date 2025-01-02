@@ -128,13 +128,15 @@ if __name__ == '__main__':
     #
     # data = create_account(addresses)
 
-    account_id = "74c65a13-ccb9-4fe8-9265-64e5ff40e159"
-    addresses = [{"chainIndex": "501", "address": "8yNxK642RR1vyx7WoLou8Jxjxhwsedv8BfTYc833KNRg"}]
+    # account_id = "74c65a13-ccb9-4fe8-9265-64e5ff40e159"
+    # addresses = [{"chainIndex": "501", "address": "8yNxK642RR1vyx7WoLou8Jxjxhwsedv8BfTYc833KNRg"}]
 
     # data = update_account(account_id, "add", addresses)
     # data = query_account_detail(account_id)
 
-    # data = query_accounts()
+    data = query_accounts()
+    print(json.dumps(data, indent=2, ensure_ascii=False))
+    exit()
     # data = query_account_transactions(account_id)
     data = query_account_balance(account_id)
     print(json.dumps(data, indent=2, ensure_ascii=False))
