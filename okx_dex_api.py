@@ -359,6 +359,7 @@ class OKXDexAPI:
             request_path = f"{request_path}?{query_string}"
 
         url = f"{self.base_url}{request_path}"
+        print(url)
         headers = self._get_headers("GET", request_path)
 
         async with aiohttp.ClientSession() as session:
@@ -393,9 +394,10 @@ class OKXDexAPI:
         """
         request_path = f"/{path}"
         url = f"{self.base_url}{request_path}"
-        
+        print(url)
         # Convert body to JSON string
         body = json.dumps(data)
+        print(body)
         headers = self._get_headers("POST", request_path, body)
 
         async with aiohttp.ClientSession() as session:
