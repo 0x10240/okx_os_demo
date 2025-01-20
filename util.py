@@ -49,7 +49,7 @@ def create_signature(method, request_path, params):
     return signature, timestamp
 
 
-def send_request(request_path, method="GET", params=None):
+def send_request(request_path, method="GET", params={}):
     # 生成签名
     signature, timestamp = create_signature(method, request_path, params)
 

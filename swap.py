@@ -1,5 +1,7 @@
 import json
+import time
 from util import send_request
+from wallet import broadcast_transaction
 
 """
 兑换API
@@ -53,12 +55,13 @@ def get_liquidity(chainId):
 
 def approve_transaction(chainId, tokenContractAddress, approveAmount):
     """
-    获取交易授权所需要的数据
-    :return:
+    根据 ERC-20 Token 标准，在执行兑换交易前用户需要授权欧易 DEX router 对其钱包进行资产操作，此接口提供发起授权交易前所需要的交易信息。
     """
     url = "/api/v5/dex/aggregator/approve-transaction"
     data = {
-        "chainId": chainId
+        "chainId": chainId,
+        "tokenContractAddress": tokenContractAddress,
+        "approveAmount": approveAmount
     }
     resp = send_request(url, method="GET", params=data)
     return resp.json()
@@ -120,8 +123,19 @@ if __name__ == '__main__':
 
     # 8453 stands for Base Chain
     # data = query_supported_tokens("8453")
-    # buy virtual with usdc
-    data = quote("8453", 1000000, '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913', '0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b')
+    data = approve_transaction("8453", "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913", 1000000)
     print(json.dumps(data, indent=2, ensure_ascii=False))
+    time.sleep(1)
+    # exit()
+    # buy virtual with usdc
+    # data = quote("8453", 1000000, '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913', '0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b')
+    # print(json.dumps(data, indent=2, ensure_ascii=False))
+    # exit()
     # data = get_liquidity("8453")
+    data = swap("8453", 1000000, '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913', '0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b', 0.01, '0x42c891fe3799fac46c3b82e95cc5a22a288e3178')
+    tx = data['data'][0]['tx']['data']
+    print(json.dumps(data, indent=2, ensure_ascii=False))
+    time.sleep(1)
+    data = broadcast_transaction(tx, "8453", '0x42c891fe3799fac46c3b82e95cc5a22a288e3178')
+    print(json.dumps(data, indent=2, ensure_ascii=False))
     # print(json.dumps(data, indent=2, ensure_ascii=False))

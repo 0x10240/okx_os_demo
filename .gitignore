@@ -2,3 +2,5 @@
 .idea
 .env
 venv
+*.json
+test.py
